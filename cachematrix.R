@@ -18,6 +18,7 @@ list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 
 
 ## Write a short comment describing this function
+## Compute the inverse of the special matrix returned by "makeCacheMatrix"
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
