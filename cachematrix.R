@@ -10,6 +10,7 @@ set <- function(Y){
 	X <<- Y
 	inverse <<- NULL
 }
+## Get the Matrix, set the inverse, and get the inverse of the matrix. 
 get <- function() X
 setinverse <- function(Inverse) inverse <<- Inverse
 getinverse <- function() inverse
@@ -18,7 +19,7 @@ list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 
 
 ## Write a short comment describing this function
-## Compute the inverse of the special matrix returned by "makeCacheMatrix"
+## Compute and show the inverse of the special matrix returned by "makeCacheMatrix"
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
